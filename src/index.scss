@@ -38,6 +38,7 @@ body {
         top: 10px;
         right: 10px;
         opacity: 0.5;
+        cursor: pointer;
       }
 
       &__close:hover{
@@ -52,6 +53,7 @@ body {
         width: 25px;
         bottom: 10px;
         right: 10px;
+        cursor: pointer;
       }
       &__like:hover{
         opacity: 1;
