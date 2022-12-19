@@ -11,7 +11,6 @@ export const Liked = () => {
   const dispatch = useDispatch();
 
   const newList = dataLists.filter((list) => list.like === true);
-  console.log(newList);
 
   const removeCard = (id) => {
     dispatch({ type: "DELETE__DATA", payload: id });
